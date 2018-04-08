@@ -6,7 +6,7 @@ $navLi.hover(function(){
 });
 
 var _pathname = window.location.pathname;
-if(_pathname.indexOf('joinus')>0){
+if(_pathname.indexOf('join_us')>0){
     $navLi.eq(3).addClass('active').siblings().removeClass('active');
 }else if(_pathname.indexOf('foundation')>0||_pathname.indexOf('organization')>0){
     $navLi.eq(1).addClass('active').siblings().removeClass('active');

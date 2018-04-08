@@ -1,0 +1,65 @@
+.concat-box {
+    width: 1000px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 170px;
+}
+.concat-box .heading {
+    width: 880px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto;
+    border-bottom: 1px solid #15adde;
+}
+.concat-box .heading h3 {
+    float: left;
+    height: 53px;
+    display: inline-block;
+    color: #0e6497;
+    font-size: 24px;
+    border-bottom: 3px solid #0e6497;
+    margin-bottom: -1px;
+}
+.concat-box .heading span {
+    display: inline-block;
+    margin-top: 10px;
+    float: right;
+}
+.related-content {
+    margin-top: 44px;
+    text-align: center;
+}
+.related-content .article-desc h3 {
+    font-size: 20px;
+    color: #333;
+    height: 48px;
+    line-height: 48px;
+}
+.related-content .article-desc .date{
+    font-size: 14px;
+    color: #6666;
+    margin: 25px 0 45px 0;
+}
+.related-content .article-detail{
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    line-height: 38px;
+    padding-top: 10px;
+    width: 828px;
+    margin: 0 auto;
+}
+  
+.related-content .article-detail img{
+    width: 828px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.related-content .article-detail p {
+    text-indent: 30px;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
