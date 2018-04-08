@@ -39,3 +39,11 @@ fis3 release
 # 生产环境
 1. npm run prod
 ```
+
+### 相关资源 
+
+[fis3](http://fis.baidu.com/)
+
+[swiper](https://github.com/nolimits4web/swiper)
+
+[jquery](https://github.com/jquery/jquery)
