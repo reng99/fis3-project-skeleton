@@ -1,0 +1,95 @@
+/* 加入我们 */
+.concat-box {
+    width: 1000px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 170px;
+  }
+  .concat-box .heading {
+    width: 880px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto;
+    border-bottom: 1px solid #15adde;
+  }
+  .concat-box .heading h3 {
+    float: left;
+    height: 53px;
+    display: inline-block;
+    color: #0e6497;
+    font-size: 24px;
+    border-bottom: 3px solid #0e6497;
+    margin-bottom: -1px;
+  }
+  .concat-box .heading span {
+    display: inline-block;
+    margin-top: 10px;
+    float: right;
+  }
+  .concat-box .icon {
+    margin-top: 4px;
+  }
+  .concat-box .icon li {
+    width: 24px;
+    height: 2px;
+    margin-top: 6px;
+    background: #28538F;
+  }
+  .concat-items {
+    text-align: center;
+    padding: 38px 0;
+    margin-top: 36px;
+    
+  }
+  .concat-items .item {
+    float: left;  
+    /* width: calc(100% / 3); */
+    width: 200px;
+    margin-right: 20px;
+    /* background: red; */
+  }
+  .concat-items .item:first-child{
+    margin-left: 180px;
+  }
+  .concat-items .item .icon {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 102px;
+    background-image: url(/assets/imgs/address.png);
+    background-repeat: no-repeat;
+    /* background-color: red; */
+  }
+  .concat-items .item span {
+    display: inline-block;
+    /* margin-top: 12px; */
+    color: #0E6497;
+    line-height: 30px;
+    font-size: 20px;
+    opacity: 0.3;
+    filter:alpha(opacity=30);
+    /* margin-top: -20px; */
+  }
+  .icon-phone {
+    background-position: 0 0;
+  }
+  .icon-email {
+    background-position: -102px 0;
+  }
+  .icon-address {
+    background-position: -205px 0;
+  }
+  /* .icon-chuanzhen {
+    background-position: 0 -395px;
+  } */
+  .concat-items .item p {
+    line-height: 26px;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+  }
+  /* 加入我们结束 */

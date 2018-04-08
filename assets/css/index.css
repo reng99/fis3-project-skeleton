@@ -1,3 +1,191 @@
-body{
-    background: red;
+/*swiper*/
+.swiper-wrapper{
+    width: 100%;
+    height: 450px !important;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 450px;
+  }
+  .swiper-slide{
+    margin: 0;
+    padding: 0;
+    height: 450px !important;
+  }
+  .swiper-slide a{
+    display:block;
+    width: 100%;
+    height: 450px;
+    background-size:cover;
+    cursor: default;
+  }
+  .swiper-pagination-bullet-active{
+    width: 16px !important;
+    border-radius: 4px !important;
+    background: #fff !important;
+  }
+
+  /*左侧的部分*/
+#base{
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+#base .container{
+  margin-top: 36px;
+}
+#base:after{
+  content: '.';
+  clear: both;
+  width: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+#base .left_container{
+  width: 620px;
+  height: auto;
+  float: left;
+  padding: 0 5px;
+}
+
+/*左侧的标题部分*/
+#base .title{
+  width: 100%;
+  margin-bottom: 20px;
+  color: #3f3f3f;
+  border-bottom: 1px solid #efefef;
+  /* background: red; */
+  height: 54px;
+  line-height: 48px;
+}
+#base .title h3{
+  font-size: 24px;
+  font-weight: bold;
+  height: 52px;
+  color: #333;
+  border-bottom: 4px solid #0e6497;
+  /* width: 120px; */
+  text-align: left;
+  /* padding: 4px 0 14px 0; */
+  /* float: left; */
+  /* background: red; */
+  float: left;
+}
+#base .title .more{
+  color: #999;
+  font-size: 14px;
+  float: right;
+  display: block;
+}
+#base .title .more:hover{
+  color: #0e6497;
+}
+
+/*左侧公益活动*/
+#base .left_container dl{
+  margin-bottom: 84px;
+}
+#base .server_activity .item{
+  width: 280px;
+  height: auto;
+  float: left;
+}
+#base .server_activity .item:last-child{
+  float: right;
+}
+#base .server_activity img{
+  width: 280px;
+  height: 240px;
+  display: block;
+}
+#base .server_activity h4{
+  width: 280px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+}
+#base .server_activity p{
+  color: #3f3f3f;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*左侧的相关资讯*/
+#base .relative_msg img{
+  float: left;
+  display: block;
+  width: 260px;
+  height: 160px;
+}
+#base .relative_msg .lis{
+  width: 330px;
+  float: right;
+  height: 160px;
+}
+#base .relative_msg .lis li{
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+}
+#base .relative_msg li:after{
+  content: '.';
+  width: 0;
+  height: 0;
+  display: block;
+  clear:both;
+  visibility: hidden;
+}
+#base .relative_msg li:hover{
+  font-size: 18px;
+}
+#base .relative_msg li .tit{
+  display: block;
+  float: left;
+  width: 260px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+#base .relative_msg li .datetime{
+  display: block;
+  float: right;
+}
+
+/*左侧的合作伙伴*/
+#base .cooperating_partner a{
+  margin-right: 30px;
+}
+#base .cooperating_partner a img{
+  max-width: 160px; 
+  height: auto;
+}
+
+
+#base .right_container{
+  width: 300px;
+  height: auto;
+  float: right;
+  padding-top: 16px;
+}
+#base .right_container dl{
+  width: 244px;
+  padding: 44px 28px 28px 28px;
+  border: 1px solid #eee;
+}
+#base .right_container dt{
+  color: #0e6497;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#base .right_container dd{
+  color: #3f3f3f;
+  line-height: 30px;
+  font-size: 14px;
+  color: #3f3f3f;
+}
+/*右侧的愿景和使命*/
+#base .right_container .mission{
+  margin-bottom: 50px;
 }

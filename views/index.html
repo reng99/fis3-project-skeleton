@@ -1,14 +1,103 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="/assets/css/index.css">
-</head>
-<body>
-    <link rel="import" href="/views/common/header.html?__inline">
-    <h1>index page</h1>
-    <link rel="import" href="/views/common/footer.html?__inline">
-</body>
-</html>
+
+<link rel="import" href="/views/common/header.html?__inline">
+<link rel="stylesheet" href="/assets/css/swiper.min.css">
+<link rel="stylesheet" href="/assets/css/index.css">
+<!-- 轮播图 -->
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="javascript:;" style="background:url('/assets/imgs/banner01.jpg') no-repeat center center !important;"></a>
+            </div>
+            <div class="swiper-slide">
+            <a href="javascript:;" style="background:url('/assets/imgs/banner02.jpg') no-repeat center center !important;"></a>
+            </div>
+            <div class="swiper-slide">
+            <a href="javascript:;" style="background:url('/assets/imgs/banner03.jpg') no-repeat center center !important;"></a>
+            </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<div id="base">
+    <div class="container clearFloat">
+        <div class="left_container">
+            <dl class="server_activity clearFloat">
+                <dt class="title clearFloat">
+                    <h3>公益行动</h3>
+                    <a href="history.html" class="more">更多&nbsp;&gt;&gt;</a>
+                </dt>
+                <dd class="item">
+                    <a href="2016_01_zhangJiaJie.html">
+                        <img src="/assets/imgs/service_2016_01.jpg" alt="person">
+                        <h4 class="adjective">2016年1月湖南张家界探访</h4>
+                        <p>2016年1月一众义工把毛毯和学费补贴送给47个学生。他们分别...</p>
+                    </a>
+                </dd>
+                <dd class="item">
+                    <a href="2015_08_heLongXian.html">
+                        <img src="/assets/imgs/service_2015_08.jpg" alt="person">
+                        <h4 class="adjective">
+                                2015年8月 桑植县贺龙中学探访</h4>
+                        <p>英飞尼迪慈善基金与湖南省桑植县贺龙中学涂老师扶持学生继续努力学习...</p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="relative_msg clearFloat">
+                <dt class="title clearFloat">
+                    <h3>相关资讯</h3>
+                    <!-- <a href="relatedArticle_01.html" class="more">更多&nbsp;&gt;&gt;</a> -->
+                </dt>
+                <a href="2015_03_chaoTian.html">
+                    <img src="/assets/imgs/relatived_img.jpg" alt="relatived_img">
+                </a>
+                <ul class="lis">
+                    <li><a href="2015_03_chaoTian.html"><span class="tit">
+                            张家界朝天山区三个村庄探访</span><span class="datetime">03-30</span></a></li>
+                    <li><a href="2015_03_ziYanXian.html"><span class="tit">陕西紫阳县金盆村探访</span><span class="datetime">03-23</span></a></li>
+                    <li><a href="2015_05_huNan.html"><span class="tit">湖南家界探访</span><span class="datetime">05-24</span></a></li>
+                    <li><a href="2014_07_chenGuanZhen.html"><span class="tit">陕西紫阳县城关镇和平小学与焕古镇探访</span><span class="datetime">10-08</span></a></li>
+                </ul>
+            </dl>
+            <dl class="cooperating_partner clearFloat" style="margin-bottom:0;">
+                <dt class="title clearFloat">
+                    <h3>合作伙伴</h3>
+                </dt>
+                <a href="http://www.linghit.com/">
+                    <img src="/assets/imgs/linghit.png" alt="linghit" style="width: 114px;height:46px;margin-left: 10px;">
+                </a>
+                <a href="https://www.infinitiusa.com/">
+                    <img src="/assets/imgs/infiniti.png" alt="infiniti" style="width:102px;height: 64px;">
+                </a>
+            </dl>
+        </div>
+        <div class="right_container">
+            <dl class="mission">
+                <dt>愿景.使命</dt>
+                <dd>【公益基金成立目的】基金主要用于帮助解决贫困山区学生教育、物质、生活等相关困难及问题，作为贫困山区学生“助学圆梦”专项基金，并且在持续性的公益延续基础上能够建设成为慈善造血循环体、独立运作的公益专案 。</dd>
+            </dl>
+            <dl class="introduction">
+                <dt>仁德公益基金简介</dt>
+                <dd>习总书记在党的十九大报告中提出，推动城乡义务教育一体化发展，高度重视农村义务教育，努力让每个孩子都能享有公平而有品质的教育。贫困偏远山区由于教育资源、经费、师资等方 面的柜乏，让很多学生不能全面而系统的学习成长，英菲尼迪公益基金在整合后方资源，发动身边的朋友、聚集社会资源，为热心公益慈善事业的爱心人士与学校、贫困山区学生之间架起沟通的桥梁，发动社会力量共同关爱和支援家庭真正困难、需要帮助的孩子们，真正做到对贫困山区学生个人成长和知识普及方面的“精准灌溉”。</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<link rel="import" href="/views/common/footer.html?__inline">
+<script type="text/javascript" src="/assets/js/swiper.min.js"></script>
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay: 3000, // 自动轮播时间
+            disableOnInteraction: false,
+        },
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+        },
+        loop: true,
+        speed: 1000, // 过渡的速度
+    });
+</script>

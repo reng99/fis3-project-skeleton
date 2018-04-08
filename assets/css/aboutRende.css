@@ -1,0 +1,18 @@
+
+
+/* 组织架构 */
+.organization-img {
+    width: 1000px;
+    height: auto;
+    background: #fff;
+    margin-top: 46px;
+    overflow: hidden;
+  }
+  .organization-img img {
+    display: block;
+    /* width: 800px; */
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
