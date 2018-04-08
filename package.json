@@ -1,0 +1,23 @@
+{
+  "name": "fis3-project-skeleton",
+  "version": "1.0.0",
+  "description": "fis3 project -skeleton",
+  "main": "index.js",
+  "scripts": {
+    "server": "fis3 server start",
+    "dev": "fis3 release -cwL",
+    "prod": "fis3 release -d ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reng99/fis3-project-skeleton.git"
+  },
+  "keywords": ["fis3"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reng99/fis3-project-skeleton/issues"
+  },
+  "homepage": "https://github.com/reng99/fis3-project-skeleton#readme"
+}
